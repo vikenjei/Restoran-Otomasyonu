@@ -1,0 +1,11 @@
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\bin\Debug\Restoran.exe.config
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\bin\Debug\Restoran.exe
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\bin\Debug\Restoran.pdb
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\obj\Debug\Restoran.csprojResolveAssemblyReference.cache
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\obj\Debug\Restoran.frmMain.resources
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\obj\Debug\Restoran.frmYonetim.resources
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\obj\Debug\Restoran.Properties.Resources.resources
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\obj\Debug\Restoran.csproj.GenerateResource.Cache
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\obj\Debug\Restoran.exe
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\obj\Debug\Restoran.pdb
+C:\Users\Ant\Documents\Visual Studio 2015\Projects\MsYaz10\Faruk\Restoran\Restoran\obj\Debug\Restoran.frmIntro.resources

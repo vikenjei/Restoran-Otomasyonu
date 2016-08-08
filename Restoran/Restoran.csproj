@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{997C7A87-647D-40DD-9DBD-A1888A18C844}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Restoran</RootNamespace>
+    <AssemblyName>Restoran</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\cAdisyon.cs" />
+    <Compile Include="App_Code\cKullanicilar.cs" />
+    <Compile Include="App_Code\cMain.cs" />
+    <Compile Include="App_Code\cMasa.cs" />
+    <Compile Include="App_Code\cOdemeTipleri.cs" />
+    <Compile Include="App_Code\cSalon.cs" />
+    <Compile Include="App_Code\cSatislar.cs" />
+    <Compile Include="App_Code\cUrun.cs" />
+    <Compile Include="App_Code\cUrunAltGruplari.cs" />
+    <Compile Include="App_Code\cUrunGruplari.cs" />
+    <Compile Include="App_Code\cYetkiler.cs" />
+    <Compile Include="frmIntro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIntro.Designer.cs">
+      <DependentUpon>frmIntro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmYonetim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYonetim.Designer.cs">
+      <DependentUpon>frmYonetim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmIntro.resx">
+      <DependentUpon>frmIntro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmYonetim.resx">
+      <DependentUpon>frmYonetim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\back_button-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\buttonback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\buttoncancel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\buttonok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ButtonOkicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\paybutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\balo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\button geri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\geri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\logo-main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\NAKKY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Pay-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\RESTORAN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\vip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\italyan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\iconbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_button-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button geri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttoncancel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonOkicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italyan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NAKKY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paybutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pay-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RESTOLOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RESTOLOGOBEYAZFON.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RESTORAN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whitebuttonfull.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
